@@ -24,10 +24,10 @@ function Portfolio() {
     setFormStatus("Sending...");
 
     try {
-      const response = await axios.post(
-        "http://localhost:5000/api/contact",
-        formData
-      );
+     const response = await axios.post(
+  "https://kinetrexa-portfolio-g8dq.vercel.app/api/contact",
+  formData
+);
 
       setFormStatus(response.data.message);
 

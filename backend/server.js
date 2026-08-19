@@ -106,3 +106,4 @@ if (process.env.MONGO_URI) {
     );
   });
 }
+module.exports = app;
